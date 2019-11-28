@@ -1,0 +1,24 @@
+{
+  "name": "make-mega",
+  "version": "1.0.0",
+  "description": "Make large files for testing in increments of one megabyte. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcaubrey/make-mega.git"
+  },
+  "keywords": [
+    "dummy",
+    "test",
+    "file"
+  ],
+  "author": "Michael Charles Aubrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcaubrey/make-mega/issues"
+  },
+  "homepage": "https://github.com/mcaubrey/make-mega#readme"
+}
