@@ -1,4 +1,3 @@
-"use strict";
 const fs = require("fs"),
   mb = 1000000,
   size = process.argv[2] || 100;
