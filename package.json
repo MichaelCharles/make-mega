@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mcaubrey/make-mega/issues"
   },
-  "homepage": "https://github.com/mcaubrey/make-mega#readme"
+  "homepage": "https://github.com/mcaubrey/make-mega#readme",
+  "dependencies": {
+    "commander": "^4.0.1"
+  }
 }
