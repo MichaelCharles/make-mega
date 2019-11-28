@@ -1,10 +1,10 @@
 {
   "name": "make-mega",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Make large files for testing in increments of one megabyte. ",
   "main": "index.js",
-  "scripts": {
-    "make-mega": "node index"
+  "bin": {
+    "make-mega": "make-mega.js"
   },
   "repository": {
     "type": "git",
