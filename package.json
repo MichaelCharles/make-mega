@@ -1,6 +1,6 @@
 {
   "name": "make-mega",
-  "version": "0.1.4",
+  "version": "0.1.41",
   "description": "Make large files for testing in increments of one megabyte. ",
   "main": "index.js",
   "bin": {
