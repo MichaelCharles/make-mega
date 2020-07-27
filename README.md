@@ -21,3 +21,6 @@ make-mega 200
 ```
 npm install -g make-mega
 ```
+
+## Releases
+ * 0.2.0 - Change to using a stream to append the data to the file. This should remove the previous file size limitations.
