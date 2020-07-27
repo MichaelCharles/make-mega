@@ -7,7 +7,7 @@ function main() {
     console.log(`Attempting to write...`);
     // eslint-disable-next-line node/prefer-promises/fs
     const stream = fs.createWriteStream(size + "-mb.txt", { flags: 'a'});
-    [...Array(size)].forEach(function(item, index) {
+    [...Array(parseInt(size))].forEach(function(item, index) {
       stream.write(oneMega);
     })
     stream.end();
@@ -16,7 +16,5 @@ function main() {
     console.log(message);
   }
 }
-
-main();
 
 module.exports = main;
